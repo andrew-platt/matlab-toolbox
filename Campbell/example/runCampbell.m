@@ -12,10 +12,10 @@ addpath(genpath('C:/Work/FAST/matlab-toolbox'));
 %% Parameters
 
 % Main Flags
-writeFSTfiles = logical(1); % write FAST input files for linearization
-runFST        = logical(1); % run FAST simulations
-postproLin    = logical(1); % Postprocess .lin files, perform MBC, and write XLS or CSV files
-outputFormat  ='XLS';       % Output format XLS, or CSV
+writeFSTfiles = true;      % write FAST input files for linearization
+runFST        = true;      % run FAST simulations
+postproLin    = true;      % Postprocess .lin files, perform MBC, and write XLS or CSV files
+outputFormat  ='XLS';      % Output format XLS, or CSV
 
 % Main Inputs
 FASTexe = '..\..\_ExampleData\openfast2.3_x64s.exe'; % path to an openfast executable
